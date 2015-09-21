@@ -11,6 +11,14 @@
 # Editing tools and IDEs #
 ##########################
 *.swp
+
+# vim specific cruft #
+######################
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
 *~
 
 # Logs and databases #
