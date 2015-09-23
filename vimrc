@@ -1,4 +1,5 @@
 set nocompatible " not vi compatible
+set encoding=utf-8
 
 "--------------
 " Load pathogen
