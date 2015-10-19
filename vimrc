@@ -36,6 +36,7 @@ set autoindent
 set nu " number lines
 " Relative line numbers to start with. Absolute when in insert mode.
 set rnu " relative line numbering
+set colorcolumn=80
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 exec "set listchars=tab:>>,nbsp:~"
