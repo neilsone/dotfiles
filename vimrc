@@ -36,6 +36,7 @@ command! -nargs=1 -range SuperRetab <line1>,<line2>s/\v%(^ *)@<= {<args>}/\t/g
 set nu " number lines
 " Relative line numbers to start with. Absolute when in insert mode.
 set rnu " relative line numbering
+set colorcolumn=80
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 set list
