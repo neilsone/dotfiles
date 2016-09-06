@@ -1,4 +1,5 @@
 set nocompatible " not vi compatible
+set encoding=utf-8
 
 "--------------
 " Load pathogen
@@ -31,12 +32,13 @@ set autoindent
 "---------------------
 " Basic editing config
 "---------------------
-
+command! -nargs=1 -range SuperRetab <line1>,<line2>s/\v%(^ *)@<= {<args>}/\t/g
 set nu " number lines
 " Relative line numbers to start with. Absolute when in insert mode.
 set rnu " relative line numbering
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+set list
 exec "set listchars=tab:>>,nbsp:~"
 set lbr " line break
 set ruler " show current position in file
