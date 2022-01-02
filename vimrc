@@ -40,7 +40,7 @@ set colorcolumn=80
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 set list
-exec "set listchars=tab:>>,nbsp:~"
+set listchars=tab:\│\ ,trail:-,extends:>,precedes:<,nbsp:+
 set lbr " line break
 set ruler " show current position in file
 set scrolloff=5 " show lines above and below cursor (when possible)
@@ -111,3 +111,24 @@ command -nargs=0 Sudow w !sudo tee % >/dev/null
 
 " NERDTree
 " autocmd vimenter * NERDTree
+"
+"------
+"vim-go
+"------
+" don't jump to errors after metalinter is invoked
+let g:go_jump_to_error = 0
+
+" run go imports on file save
+let g:go_fmt_command = "goimports"
+
+" automatically highlight variable your cursor is on
+let g:go_auto_sameids = 0
+" syntax highlighting options
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_generate_tags = 1
