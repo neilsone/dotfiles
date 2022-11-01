@@ -1,4 +1,5 @@
-Assumes caps lock is remapped to ctrl. That's right, you read that right. Just do it. Once you get used to it, you'll thank me. 
+Assumes caps lock is remapped to ctrl. Doing so makes using vim bindings a bit
+easier on the hands. 
 
 Directories within the `vim/bundle` directory are subtrees.
 Each subtree's repo is added as a remote with the same name as the repo. For example:
