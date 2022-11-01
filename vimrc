@@ -112,6 +112,15 @@ command -nargs=0 Sudow w !sudo tee % >/dev/null
 " NERDTree
 " autocmd vimenter * NERDTree
 "
+"------------
+"vim-markdown
+"------------
+augroup Markdown
+    autocmd Filetype markdown setlocal wrap
+    autocmd Filetype markdown setlocal linebreak
+    autocmd filetype markdown setlocal nolist
+augroup END
+"
 "------
 "vim-go
 "------
