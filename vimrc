@@ -11,7 +11,7 @@ call pathogen#helptags()
 "------------------
 " Syntax and indent
 "------------------
-syntax on " turn on syntax highlighting
+syntax enable " turn on syntax highlighting
 set showmatch " show matching braces when text indicator is over them
 
 " highlight current line, but only in active window
@@ -24,7 +24,7 @@ augroup END
 set background=dark
 "let g:solarized_termcolors=256 " instead of 16 color with mapping in terminal
 " assumes terminal colors are also solarized, otherwise uncomment above line
-colorscheme solarized 
+colorscheme solarized
 
 filetype plugin indent on " enable file type detection
 set autoindent
