@@ -44,15 +44,15 @@ to set up a new linux home dir with just a few tweaks.
 
 ## Terminal Configuration
 
- - Install iterm2
+Install iterm2
 
- - Download [Solarized](https://github.com/altercation/solarized)
+Download [Solarized](https://github.com/altercation/solarized)
 
- I organize code I download using the following organization schemes. 
- For third party code that I download, like solarized above, it would be cloned
- from the following location:
+I organize code I download using the following organization schemes. 
+For third party code that I download, like solarized above, it would be cloned
+from the following location:
 
- `~/src/third-party/altercation.github.com` 
+`~/src/third-party/altercation.github.com` 
 
 For code that I've authored or related to teams I collaborate with, I use the 
 following scheme to organize projects:
@@ -69,20 +69,21 @@ I like the [Mono font from Jet Brains](https://www.jetbrains.com/lp/mono/#how-to
 
 # Install Utilities
 
-  - Install homebrew
+Install homebrew
 	
 This may include downloading some xcode command line tools.
 
-   - Use Homebrew to install the following utilities:
+Use Homebrew to install the following utilities:
 
 ```
 brew install zsh
 brew install gnupg
 brew install tmux
+```
 
 # Configure Shell
 
-  - Install oh-my-zsh
+Install oh-my-zsh
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -93,10 +94,10 @@ or whatever your preferred theme is.
 
 # Configure Git
 
-  - Generate [gpg key and install into github.com](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+Generate [gpg key and install into github.com](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
 You might need to comment out `no-tty` in `~/.gnupg/gpg.conf` to get gpg to 
 work with these instructions.
 
-  - Generate [ssh key and install into sshagent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), and then add this to your github.com account.
+Generate [ssh key and install into sshagent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), and then add this to your github.com account.
 
