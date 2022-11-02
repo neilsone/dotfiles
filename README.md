@@ -4,6 +4,19 @@ This project uses [Dotbot](https://github.com/anishathalye/dotbot) to manage
 dotfiles. This repo is configured for my personal preferences, but also serves
 as a starting point for others. 
 
+## Usage
+
+After cloning locally, edit files as desired and then run
+```
+$ ./dotbot
+```
+This will set up symlinks for the dotfiles configured by this project. Those
+currently include:
+  - `.vimrc`
+  - `.vim/bundle`
+  - `.tmux.conf`
+  - `.gitignore_global`
+
 The main thing these dotfiles do is configure vim and tmux to use very similar
 movement keys. The core of this scheme is based on the following configuration:
 
