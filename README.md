@@ -8,7 +8,7 @@ as a starting point for others.
 
 After cloning locally, edit files as desired and then run
 ```
-$ ./dotbot
+$ ./install
 ```
 This will set up symlinks for the dotfiles configured by this project. Those
 currently include:
