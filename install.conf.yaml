@@ -6,3 +6,4 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.gitignore_global: gitignore_global
+    ~/.aliases: aliases
